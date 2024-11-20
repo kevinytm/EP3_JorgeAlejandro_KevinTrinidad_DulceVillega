@@ -1,18 +1,18 @@
 <h1>Descripción</h1>
 <p>Realizar la implementación de los siguientes autómatas para la validación de los siguientes tipos de cadenas:
 1. Autómata para realizar la validación de numero telefónico con los siguientes formatos: <br>
-  1. ### ### ####<br>
-    1. 777 100 1223<br>
-    2. 555 678 9009<br>
-  2. ###-###-####<br>
-    1. 777-100-1223<br>
-    2. 555-678-9009<br>
-  3. Reglas de construcción:<br>
-    1. Solo pueden contener dígitos del 0-9, guión (-) o espacio.<br>
-    2. El formato siempre debe contener las siguiente composición:<br>
-      1. Lada (3 dígitos).<br>
-      2. Numero parte 1 (3 dígitos).<br>
-      3. numero parte 2 (4 dígitos).<br>
+&emsp;1. ### ### ####<br>
+&emsp;&emsp;1. 777 100 1223<br>
+&emsp;&emsp;2. 555 678 9009<br>
+&emsp;2. ###-###-####<br>
+&emsp;&emsp;1. 777-100-1223<br>
+&emsp;&emsp;2. 555-678-9009<br>
+&emsp;3. Reglas de construcción:<br>
+&emsp;&emsp;1. Solo pueden contener dígitos del 0-9, guión (-) o espacio.<br>
+&emsp;&emsp;2. El formato siempre debe contener las siguiente composición:<br>
+&emsp;&emsp;&emsp;1. Lada (3 dígitos).<br>
+&emsp;&emsp;&emsp;2. Numero parte 1 (3 dígitos).<br>
+&emsp;&emsp;&emsp;3. numero parte 2 (4 dígitos).<br>
 
 2. Autómata para realizar la validación de correo electrónico con los siguientes formatos: <br>
   1. nombreUsuario@dominio<br>
