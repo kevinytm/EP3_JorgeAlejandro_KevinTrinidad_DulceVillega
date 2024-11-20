@@ -15,19 +15,19 @@
 &emsp;&emsp;&emsp;3. numero parte 2 (4 dígitos).<br>
 
 2. Autómata para realizar la validación de correo electrónico con los siguientes formatos: <br>
-  1. nombreUsuario@dominio<br>
-    1. cminauro@upemor.edu.mx<br>
-    2. rrosales@upemor.edu.mx<br>
-    3. 1234567890@upemor.edu.mx<br>
-  2. nombreUsuario@subdominio.dominio<br>
-    1. usuario@tlaloc.imta.mx<br>
-    2. usuario@server01.company.com<br>
-  3. las reglas de construcción del dominio son:<br>
-    1. No pueden contener caracteres especiales.<br>
-    2. Solo pueden contener caracteres a-z, A-Z, 0-9, punto(.), guión (-) y guión bajo (_).<br>
-    3. Las extensiones de dominio pueden ser:<br>
-      1. .com<br>
-      2. .com.mx<br>
-      3. .net<br>
-      4. .net.mx<br>
+&emsp;1. nombreUsuario@dominio<br>
+&emsp;&emsp;1. cminauro@upemor.edu.mx<br>
+&emsp;&emsp;2. rrosales@upemor.edu.mx<br>
+&emsp;&emsp;3. 1234567890@upemor.edu.mx<br>
+&emsp;2. nombreUsuario@subdominio.dominio<br>
+&emsp;&emsp;1. usuario@tlaloc.imta.mx<br>
+&emsp;&emsp;2. usuario@server01.company.com<br>
+&emsp;3. las reglas de construcción del dominio son:<br>
+&emsp;&emsp;1. No pueden contener caracteres especiales.<br>
+&emsp;&emsp;2. Solo pueden contener caracteres a-z, A-Z, 0-9, punto(.), guión (-) y guión bajo (_).<br>
+&emsp;&emsp;3. Las extensiones de dominio pueden ser:<br>
+&emsp;&emsp;&emsp;1. .com<br>
+&emsp;&emsp;&emsp;2. .com.mx<br>
+&emsp;&emsp;&emsp;3. .net<br>
+&emsp;&emsp;&emsp;4. .net.mx<br>
  </p>
