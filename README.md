@@ -1,5 +1,5 @@
 <h1>Descripción</h1>
-<p>Realizar la implementación de los siguientes autómatas para la validación de los siguientes tipos de cadenas:
+<p>Realizar la implementación de los siguientes autómatas para la validación de los siguientes tipos de cadenas: <br>
 1. Autómata para realizar la validación de numero telefónico con los siguientes formatos: <br>
 &emsp;1. ### ### ####<br>
 &emsp;&emsp;1. 777 100 1223<br>
