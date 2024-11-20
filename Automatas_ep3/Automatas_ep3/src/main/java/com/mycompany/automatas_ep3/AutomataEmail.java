@@ -9,10 +9,15 @@ public class AutomataEmail {
     
     public boolean estadoA(int posicion){
         if(posicion == cinta.length()) return false;
+        if(String.valueOf(cinta.charAt(posicion)).matches("[a-zA-Z0-9._\\-,]")) return estadoA(posicion++);
+        if(cinta.charAt(posicion)== '@') return estadoB(posicion++);
         return false;
     } 
     
     public boolean estadoB(int posicion){
+        if(posicion == cinta.length()) return false;
+        if(String.valueOf(cinta.charAt(posicion)).matches("[a-zA-Z0-9_\\-,]")) return estadoB(posicion++);
+        if(cinta.charAt(posicion)== '.') return estadoC(posicion++);
         return false;
     }  
 
