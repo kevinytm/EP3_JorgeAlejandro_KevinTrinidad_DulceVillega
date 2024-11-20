@@ -13,7 +13,6 @@
 &emsp;&emsp;&emsp;1. Lada (3 dígitos).<br>
 &emsp;&emsp;&emsp;2. Numero parte 1 (3 dígitos).<br>
 &emsp;&emsp;&emsp;3. numero parte 2 (4 dígitos).<br>
-
 2. Autómata para realizar la validación de correo electrónico con los siguientes formatos: <br>
 &emsp;1. nombreUsuario@dominio<br>
 &emsp;&emsp;1. cminauro@upemor.edu.mx<br>
