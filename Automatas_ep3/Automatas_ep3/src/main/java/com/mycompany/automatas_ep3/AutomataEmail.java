@@ -629,10 +629,158 @@ if(cinta.chartAt(posicion) ==  '_') return estadoB(posicion+1);
     }
     
     public boolean estadoJ(int posicion){
+
+			if(cinta.lenght() == posicion) return false;
+			if(cinta.chartAt(posicion) ==  'e') return estadoK(posicion+1);
+if(cinta.chartAt(posicion) ==  'E') return estadoK(posicion+1);
+if(cinta.chartAt(posicion) ==  '.') return estadoC(posicion+1);
+
+if(cinta.chartAt(posicion) ==  'a') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'b') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'c') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'd') return estadoB(posicion+1);
+
+if(cinta.chartAt(posicion) ==  'f') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'g') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'h') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'i') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'j') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'k') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'l') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'm') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'n') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'ñ') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'o') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'p') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'q') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'r') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  's') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  't') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'u') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'v') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'w') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'x') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'y') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'z') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'A') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'B') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'C') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'D') return estadoB(posicion+1);
+
+if(cinta.chartAt(posicion) ==  'F') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'G') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'H') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'I') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'J') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'K') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'L') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'M') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'N') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'Ñ') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'O') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'P') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'Q') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'R') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'S') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'T') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'U') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'V') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'W') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'X') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'Y') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'Z') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '0') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '1') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '2') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '3') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '4') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '5') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '6') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '7') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '8') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '9') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '-') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '_') return estadoB(posicion+1);
+
         return false;
     }
     
     public boolean estadoK(int posicion){
+
+
+						if(cinta.lenght() == posicion) return false;
+if(cinta.chartAt(posicion) ==  't') return estadoF(posicion+1);
+if(cinta.chartAt(posicion) ==  'T') return estadoF(posicion+1);
+if(cinta.chartAt(posicion) ==  '.') return estadoC(posicion+1);
+
+if(cinta.chartAt(posicion) ==  'a') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'b') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'c') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'd') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'e') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'f') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'g') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'h') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'i') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'j') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'k') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'l') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'm') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'n') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'ñ') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'o') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'p') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'q') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'r') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  's') return estadoB(posicion+1);
+
+if(cinta.chartAt(posicion) ==  'u') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'v') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'w') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'x') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'y') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'z') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'A') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'B') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'C') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'D') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'E') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'F') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'G') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'H') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'I') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'J') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'K') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'L') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'M') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'N') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'Ñ') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'O') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'P') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'Q') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'R') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'S') return estadoB(posicion+1);
+
+if(cinta.chartAt(posicion) ==  'U') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'V') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'W') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'X') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'Y') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  'Z') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '0') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '1') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '2') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '3') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '4') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '5') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '6') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '7') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '8') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '9') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '-') return estadoB(posicion+1);
+if(cinta.chartAt(posicion) ==  '_') return estadoB(posicion+1);
+
+
         return false;
     }
     
