@@ -46,33 +46,33 @@ public class Main {
             String cinta = "kevinyahirt@gmail.com";
             AutomataEmail automata = new AutomataEmail();
             automata.setCinta(cinta);
-            System.out.println("El correo "+cinta+" es válida? "+automata.estadoA(0));
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
             
             cinta = "kevinyahirt@gmail.com.mx";
             automata = new AutomataEmail();
             automata.setCinta(cinta);
-            System.out.println("El correo "+cinta+" es válida? "+automata.estadoA(0));
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
             
             cinta = "kevinyahirt@gmail.com.m";
             automata = new AutomataEmail();
             automata.setCinta(cinta);
-            System.out.println("El correo "+cinta+" es válida? "+automata.estadoA(0));
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
             
             
             cinta = "kevinyahirt@gmail.net";
             automata = new AutomataEmail();
             automata.setCinta(cinta);
-            System.out.println("El correo "+cinta+" es válida? "+automata.estadoA(0));
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
 
             cinta = "kevinyahirt@gmail.net.mx";
             automata = new AutomataEmail();
             automata.setCinta(cinta);
-            System.out.println("El correo "+cinta+" es válida? "+automata.estadoA(0));
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
             
             cinta = "kevinyahirt@gmail.ne";
             automata = new AutomataEmail();
             automata.setCinta(cinta);
-            System.out.println("El correo "+cinta+" es válida? "+automata.estadoA(0));
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
     }
 }
 
