@@ -239,7 +239,7 @@ public class AutomataEmail {
         if(cinta.charAt(posicion) ==  'C') return estadoD(posicion+1);
         if(cinta.charAt(posicion) ==  'n') return estadoJ(posicion+1);
         if(cinta.charAt(posicion) ==  'N') return estadoJ(posicion+1);
-        if(cinta.charAt(posicion) ==  '.') return estadoC(posicion+1);
+        if(cinta.charAt(posicion) ==  '.') return false;
         
         if(cinta.charAt(posicion) ==  'a') return estadoB(posicion+1);
         if(cinta.charAt(posicion) ==  'b') return estadoB(posicion+1);
@@ -543,7 +543,7 @@ public class AutomataEmail {
     private boolean estadoG(int posicion){
         
         if(posicion == cinta.length()) return true;
-        if(cinta.charAt(posicion) ==  '.') return estadoC(posicion+1);
+        if(cinta.charAt(posicion) ==  '.') return false;
 
         if(cinta.charAt(posicion) ==  'M') return estadoH(posicion+1);
         if(cinta.charAt(posicion) ==  'm') return estadoH(posicion+1);
