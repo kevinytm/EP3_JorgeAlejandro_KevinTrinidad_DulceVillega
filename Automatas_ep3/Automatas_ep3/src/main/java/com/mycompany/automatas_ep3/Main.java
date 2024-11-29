@@ -122,6 +122,27 @@ public class Main {
             System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
             
             
+            cinta = "nombre@gmail.com.com";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+
+            cinta = "nombre@gmail.com.mx.com";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+
+            cinta = "nombre@upemor.com.net.mx";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+
+            cinta = "nombre@.algo.com";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+
+            
     }
 }
 
