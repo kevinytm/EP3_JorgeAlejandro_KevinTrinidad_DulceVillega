@@ -64,15 +64,64 @@ public class Main {
             automata.setCinta(cinta);
             System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
 
-            cinta = "kevinyahirt@gmail.net.mx";
+            cinta = "'@dominio.com";
             automata = new AutomataEmail();
             automata.setCinta(cinta);
             System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+            
+            cinta = "usuario@dominio..com";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+            
+            cinta = "usuario@dominio!.com";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+            
+            
+            cinta = "usuario@@dominio.com";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+            
             
             cinta = "kevinyahirt@gmail.ne";
             automata = new AutomataEmail();
             automata.setCinta(cinta);
             System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+            
+            
+            cinta = "usuario@dominio.c";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+            
+            
+            cinta = "usuario@-dominio.com";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+            
+            
+            cinta = "usuario@dominio_com";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+            
+            
+            cinta = "usuario@tlaloc.imta.mx";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+            
+            
+            cinta = "usuario@server01.company.com";
+            automata = new AutomataEmail();
+            automata.setCinta(cinta);
+            System.out.println("El correo "+cinta+" es válida? "+automata.estadoZ(0));
+            
+            
     }
 }
 
